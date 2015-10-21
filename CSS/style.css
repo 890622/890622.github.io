@@ -74,13 +74,15 @@ body {
 }
 
 #textbox_top {
-	width: 90%;
+	width: 350px;
 	margin: auto;
+	bo
 }
 
 #textbox_top h1 {
 	font-size: 40px;
 	line-height: 44px;
+	border: 1px dashed lightgrey;
 }
 
 .blue_text {
@@ -89,4 +91,24 @@ body {
 
 .grey_text {
 	color: grey;
+}
+
+.section {
+	border: 1px dashed lightgrey;
+	width: 350px;
+	margin: auto;
+}
+
+.section_small {
+	border: 1px dashed lightgrey;
+	width: 300px;
+	margin: auto;
+}
+
+.section_small img {
+	width: 300px;
+	height: 246px;
+	margin: 20px auto;
+	position: relative;
+	border: 1px dashed lightgrey;
 }
