@@ -79,7 +79,7 @@ body {
 
 #textbox_top {
 	width: 350px;
-	margin: 0 auto 50px;
+	margin: auto;
 }
 
 #textbox_top h1 {
@@ -99,7 +99,7 @@ body {
 .section {
 	border: 1px dashed lightgrey;
 	width: 350px;
-	margin: 0 auto 50px;
+	margin: 50px auto;
 }
 
 .section_small {
