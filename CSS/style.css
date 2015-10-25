@@ -115,4 +115,41 @@ body {
 	border: 1px dashed lightgrey;
 }
 
+.box_info {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box_website {
+	background-image: url("http://s29.postimg.org/npde2kdaf/office_605503_1280.png");
+}
+
+#box_facebook {
+	background-image: url("http://s1.postimg.org/8f596n0od/facebook_76531.png");
+}
+
+#box_facebook_ad {
+	background-image: url('http://s22.postimg.org/tp1jq4r7z/laptop_958239_1280.png');
+}
+
+.opacity_filter {
+	width: 300px;
+	height: 200px;
+	opacity: 0.8;
+	z-index: 2;
+}
+
+#black_opacity_filter {
+	background-color: #000000;
+}
+
+#blue_opacity_filter {
+	background-color: #3B5998;
+}
+
+#white_opacity_filter {
+	background-color: #ffffff;
 }
