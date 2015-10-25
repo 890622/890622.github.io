@@ -49,7 +49,7 @@ body {
 
 .header {
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	background-color: rgba(97, 97, 97, 1);
 	position: relative;
 	display: block;
@@ -70,15 +70,16 @@ body {
 	border: 2px dashed blue;
 	color: white;
 	font-size: 3.2em;
-	text-align: center;
+	text-align: left;
 	margin-top: 0;
+	margin-left: 10%;
 	height: 100%;
+	word-spacing: 9999999px;
 }
 
 #textbox_top {
 	width: 350px;
-	margin: auto;
-	bo
+	margin: 0 auto 50px;
 }
 
 #textbox_top h1 {
@@ -98,13 +99,13 @@ body {
 .section {
 	border: 1px dashed lightgrey;
 	width: 350px;
-	margin: auto;
+	margin: 0 auto 50px;
 }
 
 .section_small {
 	border: 1px dashed lightgrey;
 	width: 300px;
-	margin: auto;
+	margin: 0 auto 50px;
 }
 
 .section_small img {
@@ -115,9 +116,9 @@ body {
 	border: 1px dashed lightgrey;
 }
 
-.box_info {
-	width: 300px;
-	height: 200px;
+.box {
+	width: 360px;
+	height: 240px;
 	margin: 0 auto;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -136,20 +137,33 @@ body {
 }
 
 .opacity_filter {
-	width: 300px;
-	height: 200px;
-	opacity: 0.8;
+	width: 360px;
+	height: 240px;
 	z-index: 2;
 }
 
+.box_header {
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	border: 1px dashed white;
+}
+
+.box_textbox {
+	font-size: 1em;
+	color: white;
+	border: 1px dashed white;
+	opacity: 1;
+}
+
 #black_opacity_filter {
-	background-color: #000000;
+	background-color: rgba(57, 56, 77, 0.8);
 }
 
 #blue_opacity_filter {
-	background-color: #3B5998;
+	background-color: rgba(59, 88, 151, 0.8);
 }
 
 #white_opacity_filter {
-	background-color: #ffffff;
+	background-color: rgba(87, 143, 255, 0.8);
 }
