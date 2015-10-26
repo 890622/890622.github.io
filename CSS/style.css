@@ -38,14 +38,31 @@ body {
 	float: left;
 }
 
-#nav_button {
-	background-color: rgba(87, 255, 134, 1);
+	/****************************
+	BUTTONS
+	****************************/
+.button {
 	color: white;
 	border: none;
+	border-radius: 3px;
+
+}
+
+#nav_button {
+	background-color: rgba(61, 219, 122, 1);
 	float: right;
 	margin-right: 5px;
 	margin-top: 5px;
 }
+
+#pricing_button {
+	background-color: rgba(87, 143, 255, 1);
+	width: 120px;
+	height: 30px;
+	font-size: 0.9em;
+}
+
+
 
 .header {
 	width: 100%;
@@ -64,7 +81,9 @@ body {
 	transform: 			translateY(-50%);
 }
 
-
+	/****************************
+	HEADER
+	****************************/
 
 #header_textbox_text {
 	border: 2px dashed blue;
@@ -102,6 +121,51 @@ body {
 	text-align: center;
 }
 
+#textbox_top_description {
+	text-align: left;
+	margin: -30px auto 0px;
+}
+
+.website_thumbnail {
+/*	border: 1px dashed grey;
+*/	width: 300px;
+	height: 200px;
+	margin: 25px auto;
+}
+
+#website1 {
+	background-image: url("http://s22.postimg.org/crsy7tb4x/website1.png");
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+
+#website2 {
+	background-image: url("http://s4.postimg.org/587z2um1p/website2.png");
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+
+#website3 {
+	background-image: url("http://s13.postimg.org/f8s2mq2fr/website3.png");
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+
+.black_opacity {
+	width: 300px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.black_opacity:hover {
+	width: 300px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
 .section_small {
 	border: 1px dashed lightgrey;
 	width: 300px;
@@ -119,6 +183,12 @@ body {
 .icons {
 	width: 100px;
 	height: 100px;
+	margin: 0 auto;
+}
+
+#icon_geo {
+	width: 100px;
+	height: 117px;
 	margin: 0 auto;
 }
 
