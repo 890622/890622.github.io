@@ -99,6 +99,7 @@ body {
 	border: 1px dashed lightgrey;
 	width: 350px;
 	margin: 50px auto;
+	text-align: center;
 }
 
 .section_small {
@@ -113,6 +114,12 @@ body {
 	margin: 20px auto;
 	position: relative;
 	border: 1px dashed lightgrey;
+}
+
+.icons {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
 }
 
 .box {
