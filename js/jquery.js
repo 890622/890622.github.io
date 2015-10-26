@@ -4,5 +4,5 @@ $("#nav_button").click(function() {
 });
 
 $(".opacity_filter").click(function() {
-	$(".opacity_filter").hide();
+	$(".opacity_filter").remove();
 });
