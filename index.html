@@ -6,9 +6,11 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		
 		<!--- jQuery -->
+
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
 		<!--- CSS FILES -->
+
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -18,59 +20,85 @@
 	<body>
 
 		<!--- Navigation -->
+		
 		<div id="nav">
-			<div id="new_logo">Logotype</div>
-			<button class="button green_button" id="nav_button">Let's go!</button>
+			<div id="logo">Logotype</div>
+			<button class="button small_button green_button" id="nav_button">Let's go!</button>
 		</div>
 		
 		
 		<!--- Header -->
+		
 		<div class="header">
 			<div id="header_textbox">
-				<p id="header_textbox_text"> 
+				<div id="header_textbox_text"> 
 					All<br> 
 					you<br> 
 					need,<br>
 					is a<br>
-					product. </p>
+					product.
+				</div>
 			</div>
 		</div>
 
 		<!--- Body START -->
 
-		 <section id="textbox_top">	
-		 	<h1><span class="blue_text">Designed and functioning store</span> <span class="grey_text">for less than $30</span></h1>
-		 </section>
-		 <section id="textbox_top_description" class="section">
-		 <p style=><span class="grey_text">Want an easy way to set up a store...? </span><br>
-		 	<span class="blue_text">How 'bout we do it for you instead? <br>
-		 		  Plus marketing.</span>
-		 </p>
-		 </section>
+		<section class="section_full_width section_top">
+			<div id="body_textbox">
+			 	<h1><span class="blue_text">
+			 		Designed and 
+			 		functioning store</span> <span class="grey_text">for less than $30</span></h1>
+			</div>	
+			 	
+			<div id="body_textbox_description">
+			 	<p style=>
+			 		<span class="grey_text">
+				 		Looking for an easy way to set up a store...? 
+				 	</span><br>
+			 		<span class="blue_text">How 'bout we do it for you instead? <br>Plus marketing.</span>
+			 	</p>
+			</div>
+		</section>
 		 
 			<section class="section">
+				<h3>Just pick a template</h3>
 				<div class="website_thumbnail">
 					<div id="website1">
-						<div class="black_opacity"></div>
+						<div class="black_opacity">
+							<button class="button medium_button blue_button">View</button>
+							<button class="button medium_button green_button">Select</button>
+						</div>
 					</div></div>
 				<div class="website_thumbnail">
 					<div id="website2">
-						<div class="black_opacity"></div>
+						<div class="black_opacity">
+							<button class="button medium_button blue_button">View</button>
+							<button class="button medium_button green_button">Select</button>
+						</div>
 					</div></div>
 				<div class="website_thumbnail">
 					<div id="website3">
-						<div class="black_opacity"></div>
+						<div class="black_opacity">
+							<button class="button medium_button blue_button">View</button>
+							<button class="button medium_button green_button">Select</button>
+						</div>
 					</div></div>
 			</section>
 		 
-			<section id="we_do_everything" class="section_full_width">
-				We build the site<br>
-				We drive the traffic<br>
-				We handle the hosting<br>
-				We... do everything for you.<br>
+			<section id="we_do_everything_box" class="section_full_width">
+				<div class="black_opacity2">
+					<div class="box_header"><h2>
+						We build the site<br>
+						We drive the traffic<br>
+						We handle the hosting<br><br>
+						We... do it all for you.</h2>
+					</div>
+				</div>
+				
 			</section>
 
 			<!--- Icon boxes -->
+
 			<section class="section">
 				<img class="icons" src="icons/png/design.png"><br>
 				<h4>Custom designed webstore</h4>
@@ -104,15 +132,16 @@
 
 
 			<!--- iMac img -->
-			<section class="section_small">
+			<!-- <section class="section_small">
 				<img src="http://s21.postimg.org/k3jk143lj/imac_cartoon.png">
-			</section>
+			</section> -->
 
 			<!--- Info boxes -->
+
 			<section>
 				<div id="box_website" class="box">
 					<div id="black_opacity_filter" class="opacity_filter">
-						<div class="box_header"><h3>Responsive website</h3></div>
+						<div class="box_header"><h2>Responsive website</h2></div>
 						<div class="box_textbox">
 							<ul>
 								<li>Bullet 1</li>
@@ -124,7 +153,7 @@
 				</div>
 				<div id="box_facebook" class="box">
 					<div id="blue_opacity_filter" class="opacity_filter">
-						<div class="box_header"><h3>Facebook page</h3></div>
+						<div class="box_header"><h2>Facebook page</h2></div>
 						<div class="box_textbox">
 							<ul>
 								<li>Bullet 1</li>
@@ -136,7 +165,7 @@
 				</div>
 				<div id="box_facebook_ad" class="box">
 					<div id="white_opacity_filter" class="opacity_filter">
-						<div class="box_header"><h3>Facebook ad</h3></div>
+						<div class="box_header"><h2>Facebook ad</h2></div>
 						<div class="box_textbox">
 							<ul>
 								<li>Bullet 1</li>
@@ -149,15 +178,17 @@
 			</section>
 
 			<!--- Pricing section -->
+
 			<section class="section">
 			<p style="text-align: center"><span class="grey_text">So how much is this gonna cost you...? </span><br><br>
 			<button class="button medium_button blue_button">Pricing</button>
 			</section>
 
 
-		 <!--- Body END -->
+		<!--- Body END -->
 
 		<!--- Scripts -->
+
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
 
