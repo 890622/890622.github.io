@@ -13,7 +13,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-    background: rgba(247, 247, 247, 1);
+    background: rgba(237, 237, 237, 1);
     color: #888;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -130,26 +130,29 @@ body h1 {
 #header_textbox_text {
 	border: 2px dashed blue;
 	color: white;
-	font-size: 10vh;
+	font-size: 15vh;
+	min-font-size: 40px;
 	text-align: left;
 	margin-top: 0;
 	margin-left: 30px;
 }
 
-#body_textbox {
-	width: 350px;
+#top_textbox {
+	width: 90%;
+	max-width: 600px;	
 	margin: 25px auto 0;
 	border: 1px dashed grey;
 }
 
-#body_textbox_description {
-	width: 350px;
+#top_textbox_subtext {
+	width: 90%;
+	max-width: 600px;	
 	text-align: left;
 	margin: 0 auto;
 	border: 1px dashed grey;
 }
 
-#body_textbox h1 {
+#top_textbox h1 {
 	border: 1px dashed lightgrey;
 	margin: 0;
 }
@@ -169,21 +172,25 @@ body h1 {
 .section_full_width {
 	border: 1px dashed lightgrey;
 	width: 100%;
-	margin: 20px auto;
+	margin: 0 auto 100px;
 	text-align: center;
 }
 
-.section {
+.section, .icon_box {
 	border: 1px dashed lightgrey;
-	width: 350px;
-	margin: 50px auto;
+	width: 90%;
+	margin: 0 auto 100px;
 	text-align: center;
+}
+
+.icon_box {
+	margin-bottom: 50px;
 }
 
 .section_small {
 	border: 1px dashed lightgrey;
 	width: 300px;
-	margin: 50px auto;
+	margin: 0 auto 100px;
 }
 
 .section_top {
@@ -202,39 +209,47 @@ body h1 {
 }
 
 	/****************************
-	WEBSITE LINKS
+	TEMPLATE LINKS
 	****************************/
 
-.website_thumbnail {
-/*	border: 1px dashed grey;
-*/	width: 300px;
+.template {
+	background-size: cover;
+	width: 300px;
 	height: 200px;
 	margin: 50px auto;
 }
 
-.website_thumbnail button {
-	margin: 85px 5px;
+.inner_box {
+	width: 100%;
+	height: 150px;
+	border: white 1px dashed;
+	padding-top: 60px;
 }
 
-#website1 {
+.template button {
+	margin: 20px 5px;
+}
+
+.template_name {
+	width: 80%;
+	height: auto;
+	color: white;
+	font-size: 30px;
+	font-family: Times;
+	border: white 1.5px solid;
+	margin: 0 auto;
+}
+
+#template1 {
 	background-image: url("http://s22.postimg.org/crsy7tb4x/website1.png");
-	background-size: cover;
-	width: 300px;
-	height: 200px;
 }
 
-#website2 {
+#template2 {
 	background-image: url("http://s4.postimg.org/587z2um1p/website2.png");
-	background-size: cover;
-	width: 300px;
-	height: 200px;
 }
 
-#website3 {
+#template3 {
 	background-image: url("http://s13.postimg.org/f8s2mq2fr/website3.png");
-	background-size: cover;
-	width: 300px;
-	height: 200px;
 }
 
 .black_opacity ,.black_opacity2{
@@ -243,13 +258,44 @@ body h1 {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.black_opacity:hover {
-	width: 300px;
-	height: 200px;
-	background-color: rgba(0, 0, 0, 0.0);
+.black_opacity ,.black_opacity2{
+	padding-top: 0px; 
 }
 
+	/****************************
+	DIVIDERS
+	****************************/
 
+.section_divider {
+	height: 300px;
+	border: 1px dashed lightgrey;
+	width: 100%;
+	margin: 0 auto 100px;
+	text-align: center;
+}
+
+.section_divider div {
+	height: 100%;
+	border: 1px dashed white;
+	text-align: center;
+}
+
+#no_opacity_layer h2 {
+	color: white;
+	font-size: 30px;
+	width: 85%;
+	margin: 20px auto;
+}
+
+#we_do_everything_divider {
+	background-image: url("http://s29.postimg.org/w3519lr6v/freelancer_763730_1920.jpg");
+	background-size: cover;
+}
+
+#pricing_divider {
+	background-image: url("http://s29.postimg.org/yq6i9ph3r/ux_787980.jpg");
+	background-size: cover;
+}
 
 	/****************************
 	ICONS
@@ -312,9 +358,10 @@ body h1 {
 
 .box_textbox {
 	color: white;
+	width: 80%;
+	margin: 0 auto;
 	border: 1px dashed white;
 }
-
 	/****************************
 	OPACITY FILTERS
 	****************************/
@@ -388,17 +435,6 @@ body h1 {
 	OTHER
 	****************************/
 
-#we_do_everything_box {
-	height: 300px;
-	background-image: url("http://s29.postimg.org/w3519lr6v/freelancer_763730_1920.jpg");
-	background-size: cover;
-	color: white;
-}
-
-#we_do_everything_box div {
-	font-size: 1.1em;
-	height: 100%;
-}
 
 .about_p {
 	margin-bottom: 50px;
