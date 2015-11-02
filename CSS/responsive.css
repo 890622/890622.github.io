@@ -1,0 +1,19 @@
+
+	/********************************************************
+	Tablet screens
+	********************************************************/
+
+@media only screen and (min-width: 480px) {
+
+.header {
+	height: 100vh;
+}
+
+#header_textbox_text h1 {
+	font-size: 2em;
+}
+
+
+
+
+}
