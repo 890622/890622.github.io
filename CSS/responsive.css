@@ -3,17 +3,123 @@
 	Tablet screens
 	********************************************************/
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
 
-.header {
-	height: 100vh;
+.section_full_width {
+	margin-bottom: 70px;
 }
 
-#header_textbox_text h1 {
+.template {
+	width: 450px;
+	height: 300px;
+}
+
+.inner_box {
+	padding-top: 90px;
+}
+
+.template_name {
+	font-size: 40px;
+}
+
+.section_divider {
+	height: 400px;
+}
+
+.icon_box {
+	width: 350px;
+	display: inline-block;
+	margin: 25px auto;
+}
+
+.box {
+	width: 450px;
+	height: 300px;
+}
+
+
+.box_header h2 {
 	font-size: 2em;
 }
 
+.box_textbox {
+	font-size: 1.25em;
+}
 
+.opacity_filter {
+	width: 450px;
+	height: 300px;
+	z-index: 2;
+}
+
+.table {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#no_opacity_layer h2 {
+	font-size: 40px;
+	margin: 30px auto;
+}
+
+}
+
+
+
+
+
+
+	/********************************************************
+	Desktop screens
+	********************************************************/
+
+@media only screen and (min-width: 1149px) {
+
+.section_full_width {
+	margin-bottom: 100px;
+}
+.template {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	margin: 0 20px;
+	vertical-align: top;
+}
+
+.inner_box {
+	padding-top: 40px;
+}
+
+.template_name {
+	font-size: 30px;
+}
+
+.box {
+	display: inline-block;
+	width: 360px;
+	height: 240px;
+	margin: 0 10px;
+}
+
+
+.box_header h2 {
+	font-size: 1.5em;
+}
+
+.box_textbox {
+	font-size: 1em;
+}
+
+.opacity_filter {
+	width: 360px;
+	height: 240px;
+	z-index: 2;
+}
+
+.icons_large {
+	width: 250px;
+	height: 250px;
+}
 
 
 }
