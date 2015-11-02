@@ -1,7 +1,10 @@
-
+	
+	/********************************************************
+	Mobile screens
+	********************************************************/
 
 html {
-	width: 400px;
+	width: 100%;
 	height: auto;
 
 }
@@ -111,22 +114,23 @@ body h1 {
 
 .header {
 	width: 100%;
-	height: 500px;
+	height: 100vh;
 	background-color: rgba(97, 97, 97, 1);
 	margin: 0 auto ;
 }
 
 #header_textbox {
-	width: 100%;
+	width: auto;
 	border: 2px dashed white;
 	position: relative;
 	top: 50px;
+	padding: 50px 0;
 }
 
 #header_textbox_text {
 	border: 2px dashed blue;
 	color: white;
-	font-size: 3.2em;
+	font-size: 10vh;
 	text-align: left;
 	margin-top: 0;
 	margin-left: 30px;
@@ -164,7 +168,7 @@ body h1 {
 
 .section_full_width {
 	border: 1px dashed lightgrey;
-	width: 400px;
+	width: 100%;
 	margin: 20px auto;
 	text-align: center;
 }
@@ -182,7 +186,7 @@ body h1 {
 	margin: 50px auto;
 }
 
-.<<section_top {
+.section_top {
 	background-color: rgba(240, 240, 240, 1);
 	margin-top: 0;
 	padding-bottom: 20px;
@@ -290,11 +294,11 @@ body h1 {
 }
 
 #box_facebook {
-	background-image: url("http://s1.postimg.org/8f596n0od/facebook_76531.png");
+	background-image: url('http://s1.postimg.org/9u6tvd1rh/facebook_76531.png');
 }
 
 #box_facebook_ad {
-	background-image: url('http://s22.postimg.org/tp1jq4r7z/laptop_958239_1280.png');
+	background-image: url('http://s22.postimg.org/k4hx391vz/laptop_958239_1280.png');
 }
 
 .box_header {
@@ -322,15 +326,15 @@ body h1 {
 }
 
 #black_opacity_filter {
-	background-color: rgba(57, 56, 77, 0.8);
+	background-color: rgba(57, 56, 77, 0.7);
 }
 
 #blue_opacity_filter {
-	background-color: rgba(59, 88, 151, 0.8);
+	background-color: rgba(59, 88, 151, 0.7);
 }
 
 #white_opacity_filter {
-	background-color: rgba(87, 143, 255, 0.8);
+	background-color: rgba(87, 143, 255, 0.7);
 }
 
 	/****************************
@@ -424,10 +428,5 @@ footer a {
 	text-decoration: none;
 	color: grey;
 }
-
-
-
-
-
 
 
