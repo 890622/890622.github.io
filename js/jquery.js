@@ -1,12 +1,7 @@
-
-$("#nav_button").click(function() {
-	$("#nav_button").hide();
+$(document).ready(function() {
+	$("#nav").hide();
 });
 
-// $(".opacity_filter").click(function() {
-// 	$(".opacity_filter").remove();
-// });
-
-// $("#black_opacity_filter").click(function() {
-// 	$("#black_opacity_filter").hide();
-// });
+$(window).scroll(function() {
+	$("#nav").slideDown("slow");
+});
