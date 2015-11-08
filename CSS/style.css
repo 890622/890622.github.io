@@ -39,6 +39,7 @@ body h1 {
 	top: 0;
 	border: solid 1px red;
 	z-index: 3;
+	display: none;
 }
 
 #logo {
@@ -128,14 +129,25 @@ body h1 {
 }
 
 #header_textbox_text {
+	max-width: 500px;
 	border: 2px dashed blue;
 	color: white;
-	font-size: 15vh;
+	font-size: 11vh;
 	min-font-size: 40px;
 	text-align: left;
 	margin-top: 0;
 	margin-left: 30px;
-	
+}
+
+#header_textbox_subtext {
+	width: 80%;
+	max-width: 500px;
+	border: 2px dashed blue;
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	line-height: 20px;
 }
 
 #top_textbox {
@@ -220,7 +232,8 @@ body h1 {
 }
 
 .div_top_image_textbox {
-	font-size: 25px;
+	font-size: 30px;
+	font-family: ;
 	color: white;
 	text-align: center;
 	width: 90%;
@@ -235,12 +248,12 @@ body h1 {
 	****************************/
 
 #select_your_template {
-	background-image: url("http://s22.postimg.org/arxesx20x/student_849822_640.jpg");
+	background-image: url("http://s15.postimg.org/oiukwrkez/startup_593322_640.jpg");
 	background-size: cover; 
 }
 
 #tell_us_about_business {
-	background-image: url("http://s1.postimg.org/9up734hov/startup_594091_640.jpg");
+	background-image: url("http://s21.postimg.org/6xr3hljnb/library_849797_640.jpg");
 	background-size: cover; 
 }
 
@@ -414,15 +427,15 @@ body h1 {
 }
 
 #black_opacity_filter {
-	background-color: rgba(57, 56, 77, 0.7);
+	background-color: rgba(57, 56, 77, 0.5);
 }
 
 #blue_opacity_filter {
-	background-color: rgba(59, 88, 151, 0.7);
+	background-color: rgba(59, 88, 151, 0.5);
 }
 
 #white_opacity_filter {
-	background-color: rgba(87, 143, 255, 0.7);
+	background-color: rgba(87, 143, 255, 0.5);
 }
 
 	/****************************
