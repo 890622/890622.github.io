@@ -5,6 +5,16 @@
 
 @media only screen and (min-width: 600px) {
 
+#header_textbox {
+	padding: 50px 0;
+}
+
+#header_textbox_text {
+}
+
+#header_textbox_subtext {
+}
+
 .section_full_width {
 	margin-bottom: 70px;
 }
@@ -126,6 +136,11 @@
 .icons_large {
 	width: 250px;
 	height: 250px;
+}
+
+#top_textbox {
+	max-width: 90%;
+	text-align: center;
 }
 
 /*.div_top_image {
