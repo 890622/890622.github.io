@@ -22,8 +22,7 @@
 .div_top_image {
 	width: 450px;
 	height: 300px;
-	margin: 0 auto 30px;
-	border-radius: 100%;
+	margin: 0 auto;
 }
 
 .template {
@@ -113,7 +112,6 @@
 	width: 25%;
 	height: 25vw;
 	display: inline-block;
-	margin: 0 10px;
 	border-radius: 0;
 }
 
