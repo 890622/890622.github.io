@@ -77,7 +77,11 @@
 	margin: 0 10px;
 }
 
+.div_about_us {
+	width: 49%;
+	max-width: 600px;
 
+}
 
 }
 
@@ -108,7 +112,7 @@
 }
 
 .div_top_image {
-	width: 25%;
+	width: 30%;
 	height: 25vw;
 	display: inline-block;
 	border-radius: 0;
@@ -148,6 +152,11 @@
 #top_textbox {
 	max-width: 90%;
 	text-align: center;
+}
+
+.about_us_box p {
+	max-width: 480px;
+
 }
 
 /*.div_top_image {
