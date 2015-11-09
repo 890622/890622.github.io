@@ -202,6 +202,13 @@ body h1 {
 	margin-bottom: 50px;
 }
 
+.icon_box p {
+	text-align: left;
+	max-width: 300px;
+	margin: auto;
+	padding-left: 30px;
+}
+
 .section_small {
 	border: 1px dashed lightgrey;
 	width: 300px;
@@ -333,16 +340,25 @@ body h1 {
 }
 
 .section_divider div {
-	height: 100%;
 	border: 1px dashed white;
 	text-align: center;
 }
 
-#no_opacity_layer h2 {
+.section_divider_textbox {
+	height: auto;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	width: 85%;
+  	margin: auto;
+  	padding-top: 0;
+}
+
+.section_divider_textbox h2 {
 	color: white;
 	font-size: 30px;
-	width: 85%;
-	margin: 20px auto;
+	margin-top: 0;
+
 }
 
 #we_do_everything_divider {
