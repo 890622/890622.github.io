@@ -37,8 +37,8 @@ body h1 {
 	background-color: rgba(247, 247, 247, 0.9);
 	position: fixed;
 	top: 0;
-	border: solid 1px red;
-	z-index: 3;
+/*	border: solid 1px red;
+*/	z-index: 3;
 	display: none;
 }
 
@@ -46,8 +46,8 @@ body h1 {
 	height: 40px;
 	width: 100px;
 	color: black;
-	border: dashed 1px black;
-	display: inline-block;
+/*	border: dashed 1px black;
+*/	display: inline-block;
 	float: left;
 }
 
@@ -132,18 +132,18 @@ body h1 {
 	background-image: url(http://s23.postimg.org/md5faohjf/sweden_996001.jpg);
 }
 
-#header_textbox {
+.header_textbox {
 	width: auto;
-	border: 2px dashed white;
-	position: relative;
+/*	border: 2px dashed white;
+*/	position: relative;
 	top: 50px;
 	padding-bottom: 50px;
 }
 
 #header_textbox_text {
 	max-width: 650px;
-	border: 2px dashed blue;
-	color: white;
+/*	border: 2px dashed blue;
+*/	color: white;
 	font-size: 9.5vh;
 	line-height: 10vh;
 	min-font-size: 40px;
@@ -152,10 +152,10 @@ body h1 {
 }
 
 #header_textbox_text_signup {
-	width: 90%;
+	width: 85%;
 	max-width: 1200px;
-	border: 2px dashed blue;
-	color: white;
+/*	border: 2px dashed blue;
+*/	color: white;
 	font-size: 9.5vh;
 	line-height: 10vh;
 	min-font-size: 40px;
@@ -166,8 +166,8 @@ body h1 {
 #header_textbox_subtext {
 	width: 85%;
 	max-width: 500px;
-	border: 2px dashed blue;
-	color: white;
+/*	border: 2px dashed blue;
+*/	color: white;
 	text-align: left;
 	margin-top: 20px;
 	margin-left: 30px;
@@ -190,8 +190,8 @@ body h1 {
 	width: 90%;
 	max-width: 600px;	
 	margin: 25px auto 0;
-	border: 1px dashed grey;
-}
+/*	border: 1px dashed grey;
+*/}
 
 
 #top_textbox_subtext {
@@ -199,12 +199,12 @@ body h1 {
 	max-width: 600px;	
 	text-align: left;
 	margin: 0 auto;
-	border: 1px dashed grey;
-}
+/*	border: 1px dashed grey;
+*/}
 
 #top_textbox h1 {
-	border: 1px dashed lightgrey;
-	margin: 0;
+/*	border: 1px dashed lightgrey;
+*/	margin: 0;
 }
 
 .blue_text {
@@ -220,15 +220,15 @@ body h1 {
 	****************************/
 
 .section_full_width {
-	border: 1px dashed lightgrey;
-	width: 100%;
+/*	border: 1px dashed lightgrey;
+*/	width: 100%;
 	margin: 0 auto 100px;
 	text-align: center;
 }
 
 .section, .icon_box {
-	border: 1px dashed lightgrey;
-	width: 90%;
+/*	border: 1px dashed lightgrey;
+*/	width: 90%;
 	margin: 0 auto 100px;
 	text-align: center;
 }
@@ -245,8 +245,8 @@ body h1 {
 }
 
 .section_small {
-	border: 1px dashed lightgrey;
-	width: 300px;
+/*	border: 1px dashed lightgrey;
+*/	width: 300px;
 	margin: 0 auto 100px;
 }
 
@@ -262,8 +262,8 @@ body h1 {
 	height: 246px;
 	margin: 20px auto;
 	position: relative;
-	border: 1px dashed lightgrey;
-}
+/*	border: 1px dashed lightgrey;
+*/}
 
 	/****************************
 	DIVS
@@ -295,8 +295,8 @@ body h1 {
 	margin: auto;
 	display: inline-block;
 	vertical-align: top;
-	border: 1px lightgrey dashed;
-	color: #595959;
+/*	border: 1px lightgrey dashed;
+*/	color: #595959;
 }
 
 .div_about_us_image {
@@ -309,8 +309,8 @@ body h1 {
 }
 
 .about_us_box {
-	border: 1px dashed lightgrey;
-	width: 100%;
+/*	border: 1px dashed lightgrey;
+*/	width: 100%;
 	margin: 0 auto 100px;
 	text-align: center;
 	margin-bottom: 50px;
@@ -356,8 +356,8 @@ body h1 {
 .inner_box {
 	width: 100%;
 	height: 150px;
-	border: white 1px dashed;
-	padding-top: 60px;
+/*	border: white 1px dashed;
+*/	padding-top: 60px;
 }
 
 .template button {
@@ -370,8 +370,8 @@ body h1 {
 	color: white;
 	font-size: 30px;
 	font-family: Times;
-	border: white 1.5px solid;
-	margin: 0 auto;
+/*	border: white 1.5px solid;
+*/	margin: 0 auto;
 }
 
 #template1 {
@@ -402,15 +402,15 @@ body h1 {
 
 .section_divider {
 	height: 350px;
-	border: 1px dashed lightgrey;
-	width: 100%;
+/*	border: 1px dashed lightgrey;
+*/	width: 100%;
 	margin: -50px auto 0;
 	text-align: center;
 }
 
 .section_divider div {
-	border: 1px dashed white;
-	text-align: center;
+/*	border: 1px dashed white;
+*/	text-align: center;
 }
 
 .section_divider_textbox {
@@ -492,8 +492,8 @@ body h1 {
 
 .box_header {
 	text-align: center;
-	border: 1px dashed white;
-}
+/*	border: 1px dashed white;
+*/}
 
 .box_header h2 {
 	color: white;
@@ -503,8 +503,8 @@ body h1 {
 	color: white;
 	width: 80%;
 	margin: 0 auto;
-	border: 1px dashed white;
-}
+/*	border: 1px dashed white;
+*/}
 	/****************************
 	OPACITY FILTERS
 	****************************/
@@ -591,8 +591,8 @@ footer {
 	text-align: center;
 	line-height: 40px;
 	font-size: 0.8em;
-	border-top: 1px solid rgba(235, 235, 235, 1);
-	margin: 50px 0 0;
+/*	border-top: 1px solid rgba(235, 235, 235, 1);
+*/	margin: 50px 0 0;
 
 }
 
