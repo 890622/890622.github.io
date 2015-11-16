@@ -9,6 +9,10 @@
 	padding: 50px 0;
 }
 
+#signup_header_textbox {
+	top: 150px;
+}
+
 #header_textbox_text {
 }
 
@@ -97,6 +101,10 @@
 	********************************************************/
 
 @media only screen and (min-width: 1149px) {
+
+#signup_header_textbox {
+	top: 200px;
+}
 
 .section_full_width {
 	margin-bottom: 100px;
