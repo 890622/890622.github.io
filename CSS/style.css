@@ -109,6 +109,10 @@ body h1 {
 	margin: 20px 0 5px;
 }
 
+#signup_button {
+	width: 400px;
+}
+
 	/****************************
 	HEADER
 	****************************/
@@ -139,6 +143,16 @@ body h1 {
 	margin: 0 30px;
 }
 
+#header_textbox_text_signup {
+	max-width: 1200px;
+	border: 2px dashed blue;
+	color: white;
+	font-size: 6vw;
+	line-height: 6vw;
+	text-align: center;
+	margin: 0 auto 30px;
+}
+
 #header_textbox_subtext {
 	width: 80%;
 	max-width: 500px;
@@ -147,6 +161,16 @@ body h1 {
 	text-align: left;
 	margin-top: 20px;
 	margin-left: 30px;
+	line-height: 20px;
+}
+
+#header_textbox_subtext_signup {
+	width: 80%;
+	max-width: 570px;
+	border: 2px dashed blue;
+	color: white;
+	text-align: center;
+	margin: 20px auto;
 	line-height: 20px;
 }
 
