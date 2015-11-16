@@ -133,28 +133,29 @@ body h1 {
 }
 
 #header_textbox_text {
-	max-width: 500px;
+	max-width: 480px;
 	border: 2px dashed blue;
 	color: white;
-	font-size: 11vh;
-	line-height: 11.5vh;
+	font-size: 10vh;
+	line-height: 10.5vh;
 	min-font-size: 40px;
 	text-align: left;
 	margin: 0 30px;
 }
 
 #header_textbox_text_signup {
+	width: 90%;
 	max-width: 1200px;
 	border: 2px dashed blue;
 	color: white;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	line-height: 6vw;
 	text-align: center;
 	margin: 0 auto 30px;
 }
 
 #header_textbox_subtext {
-	width: 80%;
+	width: 85%;
 	max-width: 500px;
 	border: 2px dashed blue;
 	color: white;
