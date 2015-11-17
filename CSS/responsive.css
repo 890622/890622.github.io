@@ -10,7 +10,7 @@ body h1 {
 	line-height: 44px;
 }
 
-#header_textbox {
+.header_textbox {
 	padding: 50px 0;
 }
 
@@ -107,6 +107,7 @@ body h1 {
 
 @media only screen and (min-width: 1149px) {
 
+.
 #signup_header_textbox {
 	top: 120px;
 }
