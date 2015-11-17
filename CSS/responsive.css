@@ -10,7 +10,7 @@
 }
 
 #signup_header_textbox {
-	top: 150px;
+	top: 80px;
 }
 
 #header_textbox_text {
@@ -103,7 +103,7 @@
 @media only screen and (min-width: 1149px) {
 
 #signup_header_textbox {
-	top: 200px;
+	top: 120px;
 }
 
 .section_full_width {
