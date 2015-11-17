@@ -5,6 +5,11 @@
 
 @media only screen and (min-width: 600px) {
 
+body h1 {
+	font-size: 40px;
+	line-height: 44px;
+}
+
 #header_textbox {
 	padding: 50px 0;
 }
