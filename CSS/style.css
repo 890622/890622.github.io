@@ -479,22 +479,29 @@ body h1 {
 	background-repeat: no-repeat;
 }
 
+#boxes {
+	display: inline-block;
+	vertical-align: top;
+}
+
 #box_website {
-	background-image: url("http://s29.postimg.org/npde2kdaf/office_605503_1280.png");
+	background-image: url(http://i.imgur.com/WwErja6.jpg);
 }
 
 #box_facebook {
-	background-image: url('http://s1.postimg.org/9u6tvd1rh/facebook_76531.png');
+	background-image: url(http://i.imgur.com/gvRrnJa.png);
 }
 
 #box_facebook_ad {
-	background-image: url('http://s22.postimg.org/k4hx391vz/laptop_958239_1280.png');
+	background-image: url(http://i.imgur.com/rSePVK7.jpg);
 }
 
 .box_header {
-	text-align: center;
-/*	border: 1px dashed white;
-*/}
+	width: 100%;
+	padding-top: 5px;
+	text-align: left;
+	margin-left: 18%;
+}
 
 .box_header h2 {
 	color: white;
@@ -504,7 +511,9 @@ body h1 {
 	color: white;
 	width: 80%;
 	margin: 0 auto;
-/*	border: 1px dashed white;
+	font-size: 20px;
+	line-height: 26px;
+/*border: 1px dashed transparent;
 */}
 	/****************************
 	OPACITY FILTERS
@@ -517,15 +526,15 @@ body h1 {
 }
 
 #black_opacity_filter {
-	background-color: rgba(57, 56, 77, 0.5);
+	background-color: rgba(57, 56, 77, 0.95);
 }
 
 #blue_opacity_filter {
-	background-color: rgba(59, 88, 151, 0.5);
+	background-color: rgba(59, 88, 151, 0.95);
 }
 
 #white_opacity_filter {
-	background-color: rgba(87, 143, 255, 0.5);
+	background-color: rgba(87, 143, 255, 0.95);
 }
 
 	/****************************
