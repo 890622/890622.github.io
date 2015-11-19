@@ -74,7 +74,8 @@ body h1 {
 }
 
 .box_textbox {
-	font-size: 1.25em;
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
 
 .opacity_filter {
@@ -151,6 +152,9 @@ body h1 {
 }
 
 .box_textbox {
+	width: 80%;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 .opacity_filter {
