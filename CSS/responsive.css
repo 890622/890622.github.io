@@ -89,11 +89,21 @@ body h1 {
 	margin: 0 10px;
 }
 
+#contact_me {
+	width: 500px;
+}
+
+#contact_me_h1 {
+	width: 90%;
+}
+
 .div_about_us {
 	width: 49%;
 	max-width: 600px;
 
 }
+
+
 
 #thank_you_list {
 	margin-left: 38%;
