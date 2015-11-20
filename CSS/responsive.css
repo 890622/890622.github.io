@@ -95,6 +95,10 @@ body h1 {
 
 }
 
+#thank_you_list {
+	margin-left: 38%;
+}
+
 }
 
 
@@ -176,6 +180,10 @@ body h1 {
 .about_us_box p {
 	max-width: 480px;
 
+}
+
+#thank_you_list {
+	margin-left: 42%;
 }
 
 /*.div_top_image {
