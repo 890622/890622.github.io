@@ -147,7 +147,7 @@ body h1 {
 }
 
 #header_textbox_text {
-	max-width: 650px;
+	max-width: 800px;
 /*	border: 2px dashed blue;
 */	color: white;
 	font-size: 9.5vh;
@@ -171,7 +171,7 @@ body h1 {
 
 #header_textbox_subtext {
 	width: 85%;
-	max-width: 500px;
+	max-width: 450px;
 /*	border: 2px dashed blue;
 */	color: white;
 	text-align: left;
@@ -453,13 +453,13 @@ body h1 {
 
 }
 
-#we_do_everything_divider {
+#not_sure_contact_us {
 	background-image: url("http://s29.postimg.org/w3519lr6v/freelancer_763730_1920.jpg");
 	background-size: cover;
 }
 
 #pricing_divider {
-	background-image: url("http://s29.postimg.org/yq6i9ph3r/ux_787980.jpg");
+	background-image: url("http://i.imgur.com/beVpdNh.jpg");
 	background-size: cover;
 }
 
@@ -599,10 +599,10 @@ body h1 {
 #price_info_box {
 	font-size: 0.8em; 
 	color: grey;
-	text-align: right;
+	text-align: left;
 	width: 200px;
 	margin: auto;
-	padding-right: 20px;
+	padding-left: 75px ;
 }
 
 	/****************************
