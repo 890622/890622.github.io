@@ -83,6 +83,21 @@ body h1 {
 	z-index: 2;
 }
 
+.pricing_table {
+	width: 450px;
+}
+
+.icon_cell {
+	width: 120px;
+}
+
+.text_cell {
+	padding-left: 60px;
+}
+
+.contact_us_box {
+	width: 450px;
+}
 
 #contact_me {
 	width: 500px;
@@ -185,6 +200,25 @@ body h1 {
 .table {
 	display: inline-block;
 	margin: 0 10px;
+}
+
+.pricing_table {
+	width: 350px;
+}
+
+.icon_cell {
+	width: 60px;
+}
+
+.text_cell {
+	padding-left: 35px;
+}
+
+.contact_us_box {
+	width: 350px;
+	margin: 0 10px 50px;
+	display: inline-block;
+
 }
 
 .about_us_box p {
