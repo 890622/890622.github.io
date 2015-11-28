@@ -605,6 +605,14 @@ body h1 {
 	padding-left: 75px ;
 }
 
+.contact_us_box {
+	height: 300px;
+	width: 350px;
+	margin: 0 auto 50px;
+	border: 1px dashed grey;
+
+}
+
 	/****************************
 	THANK YOU PAGE
 	****************************/
