@@ -150,6 +150,7 @@ body h1 {
 	max-width: 800px;
 /*	border: 2px dashed blue;
 */	color: white;
+	font-family: "Lato";
 	font-size: 45px;
 	line-height: 50px;
 	text-align: left;
@@ -284,7 +285,6 @@ body h1 {
 
 .div_top_image_textbox {
 	font-size: 22px;
-	font-family: ;
 	color: white;
 	text-align: center;
 	width: 90%;
@@ -391,7 +391,6 @@ body h1 {
 	height: auto;
 	color: white;
 	font-size: 30px;
-	font-family: Times;
 /*	border: white 1.5px solid;
 */	margin: 0 auto;
 }
