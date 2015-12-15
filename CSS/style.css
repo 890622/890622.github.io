@@ -371,7 +371,7 @@ body h1 {
 }
 
 .imac_section_textbox, .imac_section_imagebox {
-/*	border: 1px dashed black;
+/*	border: 1px dashed grey;
 */	position: relative;
 	display: inline-block;
 	vertical-align: top;
