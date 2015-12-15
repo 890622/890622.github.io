@@ -272,6 +272,8 @@ body h1 {
 /*	border: 1px dashed lightgrey;
 */}
 
+
+
 	/****************************
 	DIVS
 	****************************/
@@ -344,6 +346,59 @@ body h1 {
 
 #contact_me button {
 	text-align: center;
+}
+
+
+	/****************************
+	iMac
+	****************************/
+
+#imac_section_bottom {
+	padding-bottom: 100px;
+}
+
+.imac_section {
+/*	border: 1px dashed grey;
+*/	width: 90%;
+	min-width: 400px;
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+}
+
+.imac_section img {
+	margin: auto;
+}
+
+.imac_section_textbox, .imac_section_imagebox {
+/*	border: 1px dashed black;
+*/	position: relative;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.imac_section_textbox {
+	width: 39%;
+	margin-top: 65px;
+}
+
+.imac_section_textbox p {
+	font-size: 18px;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+.imac_section_textbox h2 {
+	text-align: center;
+}
+
+.imac_section_imagebox {
+	width: 59.8%;
+	min-width: 500px;
+	text-align: center;
+	height: 500px;
+
 }
 
 	/****************************
