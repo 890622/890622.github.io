@@ -173,8 +173,8 @@ body h1 {
 #header_textbox_subtext {
 	width: 85%;
 	max-width: 450px;
-/*	border: 2px dashed blue;
-*/	color: white;
+	font-size: 18px;
+	color: white;
 	text-align: left;
 	margin-top: 20px;
 	margin-left: 30px;
