@@ -240,6 +240,10 @@ body h1 {
 	text-align: center;
 }
 
+.icon_section {
+	padding-bottom: 150px;
+}
+
 .icon_box {
 	margin-bottom: 50px;
 }
