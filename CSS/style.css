@@ -42,15 +42,6 @@ body h1 {
 	display: none;
 }
 
-#logo {
-	height: 40px;
-	width: 100px;
-	color: black;
-/*	border: dashed 1px black;
-*/	display: inline-block;
-	float: left;
-}
-
 	/****************************
 	BUTTONS
 	****************************/
@@ -98,14 +89,6 @@ body h1 {
 	color: white;
 }
 
-#nav_button {
-	float: right;
-	margin-right: 10px;
-	margin-top: 4px;
-	line-height: 12px;
-	font-size: 12px;
-}
-
 #buy_button {
 	margin: 20px 0 5px;
 }
@@ -133,11 +116,6 @@ body h1 {
 	background-image: url(http://i.imgur.com/lVEySX7.jpg);
 }
 
-#signup_page_header {
-	background-image: url(http://i.imgur.com/tZDDgSY.png);
-	height: 80vh;
-}
-
 .header_textbox {
 	width: auto;
 /*	border: 2px dashed white;
@@ -156,18 +134,6 @@ body h1 {
 	line-height: 50px;
 	text-align: left;
 	margin: 0 30px;
-}
-
-#header_textbox_text_signup {
-	width: 85%;
-	max-width: 1200px;
-/*	border: 2px dashed blue;
-*/	color: white;
-	font-size: 9.5vh;
-	line-height: 10vh;
-	min-font-size: 40px;
-	text-align: center;
-	margin: 0 auto 30px;
 }
 
 #header_textbox_subtext {
@@ -201,26 +167,6 @@ body h1 {
 */}
 
 
-#top_textbox_subtext {
-	width: 90%;
-	max-width: 600px;	
-	text-align: left;
-	margin: 0 auto;
-/*	border: 1px dashed grey;
-*/}
-
-#top_textbox h1 {
-/*	border: 1px dashed lightgrey;
-*/	margin: 0;
-}
-
-.blue_text {
-	color: blue;
-}
-
-.grey_text {
-	color: #888;
-}
 
 	/****************************
 	SECTIONS
@@ -241,7 +187,7 @@ body h1 {
 }
 
 .icon_section {
-	padding-bottom: 150px;
+	padding-bottom: 250px;
 }
 
 .icon_box {
@@ -261,79 +207,11 @@ body h1 {
 	margin: 0 auto 100px;
 }
 
-.section_top {
-	background-color: rgba(240, 240, 240, 1);
-	margin-top: 0;
-	padding-bottom: 20px;
-	text-align: left;
-}
-
-.section_small img {
-	width: 300px;
-	height: 246px;
-	margin: 20px auto;
-	position: relative;
-/*	border: 1px dashed lightgrey;
-*/}
-
 
 
 	/****************************
 	DIVS
 	****************************/
-
-.div_top_image {
-	width: 80%;
-	height: 300px;
-	vertical-align: bottom;
-	margin: 0 auto 10px;
-
-}
-
-.div_top_image_textbox {
-	font-size: 22px;
-	color: white;
-	text-align: center;
-	width: 90%;
-	margin: auto;
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-}
-
-.div_about_us {
-	width: 100%;
-	max-width: 400px;
-	margin: auto;
-	display: inline-block;
-	vertical-align: top;
-/*	border: 1px lightgrey dashed;
-*/	color: #595959;
-}
-
-.div_about_us_image {
-	width: 100%;
-	height: 300px;
-	background-image: url("____");
-	background-color: grey;
-	background-size: cover;
-	margin-bottom: 25px;
-}
-
-.about_us_box {
-/*	border: 1px dashed lightgrey;
-*/	width: 100%;
-	margin: 0 auto 100px;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.about_us_box p {
-	text-align: left;
-	max-width: 380px;
-	margin: auto;
-	padding-left: 30px;
-}
 
 #contact_me {
 /*	border: 1px dashed grey;
@@ -408,66 +286,8 @@ body h1 {
 }
 
 	/****************************
-	THREE STEP MODEL
-	****************************/
-
-#select_your_template {
-	background-image: url("http://s1.postimg.org/say84vkkf/entrepreneur_593362_640.jpg");
-	background-size: cover; 
-}
-
-#tell_us_about_business {
-	background-image: url("http://s7.postimg.org/yn9ibbgcb/entrepreneur_593357_640.jpg");
-	background-size: cover; 
-}
-
-#customers {
-	background-image: url("http://s11.postimg.org/mnainzhwz/entrepreneur_593360_640.jpg");
-	background-size: cover;
-}
-
-	/****************************
 	TEMPLATE LINKS
 	****************************/
-
-.template {
-	background-size: cover;
-	width: 300px;
-	height: 200px;
-	margin: 50px auto;
-}
-
-.inner_box {
-	width: 100%;
-	height: 150px;
-/*	border: white 1px dashed;
-*/	padding-top: 60px;
-}
-
-.template button {
-	margin: 20px 5px;
-}
-
-.template_name {
-	width: 80%;
-	height: auto;
-	color: white;
-	font-size: 30px;
-/*	border: white 1.5px solid;
-*/	margin: 0 auto;
-}
-
-#template1 {
-	background-image: url("http://s22.postimg.org/crsy7tb4x/website1.png");
-}
-
-#template2 {
-	background-image: url("http://s4.postimg.org/587z2um1p/website2.png");
-}
-
-#template3 {
-	background-image: url("http://s13.postimg.org/f8s2mq2fr/website3.png");
-}
 
 .black_opacity ,.black_opacity2{
 	width: 100%;
