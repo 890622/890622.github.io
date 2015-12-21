@@ -272,8 +272,8 @@ body h1 {
 }
 
 .imac_section {
-	border: 1px dashed grey;
-	width: 1150px;
+/*	border: 1px dashed grey;
+*/	width: 1150px;
 	min-width: 400px;
 	vertical-align: top;
 	text-align: right;
@@ -283,12 +283,12 @@ body h1 {
 
 .imac_section img {
 	margin: auto;
-	border: 1px dashed red;
-}
+/*	border: 1px dashed red;
+*/}
 
 .imac_section_textbox, .imac_section_imagebox {
-	border: 1px dashed grey;
-	position: relative;
+/*	border: 1px dashed grey;
+*/	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
