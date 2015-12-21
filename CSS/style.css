@@ -554,6 +554,10 @@ body h1 {
 	border-radius: 5px;
 }
 
+.contact_us_box h3 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .contact_us_textbox {
 	height: 80px;
 	width: 290px;
