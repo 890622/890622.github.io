@@ -112,14 +112,13 @@ body h1 {
 
 #go_to_order_link {
 	text-decoration: none;
-	text-transform: uppercase;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #888;
-	font-size: 14px;
-	width: 50%;
-	margin-left: 15%;
 	font-weight: 300;
-	font-style: italic;
+}
+
+#go_to_order_link:hover {
+	text-decoration: underline;
 }
 
 #go_to_order_link:visited {
@@ -297,7 +296,7 @@ body h1 {
 
 .imac_section_textbox {
 	width: 380px;
-	margin: 35px 0 0 0;
+	margin: 15px 0 0 0;
 	padding-left: 50px;
 	padding-right: 10px;
 }
