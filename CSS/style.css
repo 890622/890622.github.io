@@ -107,7 +107,24 @@ body h1 {
 }
 
 #jeansy_button {
-	background-color: #7B86A6;
+	background-color: #8E9BBB;
+}
+
+#go_to_order_link {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #595959;
+	font-size: 14px;
+	width: 50%;
+	margin-left: 15%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#go_to_order_link:visited {
+	color: #595959; 
+	text-decoration: none;
 }
 
 	/****************************
