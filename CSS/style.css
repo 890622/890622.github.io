@@ -52,6 +52,7 @@ body h1 {
 	height: 40px;
 	font-size: 16px;
 	border-radius: 3px;
+	margin-bottom: 5px;
 }
 
 .small_button {
@@ -101,6 +102,14 @@ body h1 {
 	width: 300px;
 }
 
+#rainy_button {
+	background-color: #34405A;
+}
+
+#jeansy_button {
+	background-color: #7B86A6;
+}
+
 	/****************************
 	HEADER
 	****************************/
@@ -113,7 +122,7 @@ body h1 {
 }
 
 #landing_page_header {
-	background-image: url(http://i.imgur.com/lVEySX7.jpg);
+	background-image: url(http://s3.postimg.org/nh4rvlj8z/office_581131_1920.jpg);
 }
 
 .header_textbox {
@@ -236,16 +245,17 @@ body h1 {
 	****************************/
 
 #imac_section_bottom {
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 }
 
 .imac_section {
-/*	border: 1px dashed grey;
-*/	width: 90%;
+	border: 1px dashed grey;
+	width: auto;
 	min-width: 400px;
 	vertical-align: top;
-	text-align: left;
+	text-align: center;
 	display: inline-block;
+	margin-bottom: 100px;
 }
 
 .imac_section img {
@@ -253,32 +263,53 @@ body h1 {
 }
 
 .imac_section_textbox, .imac_section_imagebox {
-/*	border: 1px dashed grey;
-*/	position: relative;
+	border: 1px dashed grey;
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
+	text-align: left;
 
 }
 
 .imac_section_textbox {
-	width: 39%;
-	margin-top: 65px;
+	width: 380px;
+	margin: 35px 10px 0 -50px;
+	padding-left: 20px;
+	padding-right: 10px;
+/*	border: 1px dashed black;
+*/}
+
+#phone {
+	position: absolute;
+	right: -50px;
+	top: 150px;
+}
+
+#imac_section_textbox_right {
+	width: 360px;
+	padding-left: 40px;
+	margin: 35px -50px 0 40px;
 }
 
 .imac_section_textbox p {
 	font-size: 18px;
-	padding-left: 10%;
-	padding-right: 5%;
+	margin-top: -12px;
+	margin-left: 5px;
 }
 
 .imac_section_textbox h2 {
-	text-align: center;
-	font-size: 40px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 32px;
 	font-weight: 500;
 }
 
+.imac_section_textbox img {
+/*	border: 1px dashed grey;
+*/}
+
 .imac_section_imagebox {
-	width: 59.8%;
+	width: 600px;
 	min-width: 500px;
 	text-align: center;
 	height: 500px;
