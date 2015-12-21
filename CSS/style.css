@@ -195,8 +195,9 @@ body h1 {
 	text-align: center;
 }
 
-.icon_section {
-	padding-bottom: 100px;
+#icon_section {
+	padding: 50px 0;
+	border: 1px dashed grey;
 }
 
 .icon_box {
@@ -210,7 +211,7 @@ body h1 {
 .icon_box p {
 	text-align: left;
 	max-width: 300px;
-	margin: auto;
+	margin: -10px auto 0;
 	padding-left: 30px;
 }
 
