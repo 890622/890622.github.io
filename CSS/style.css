@@ -196,11 +196,15 @@ body h1 {
 }
 
 .icon_section {
-	padding-bottom: 250px;
+	padding-bottom: 100px;
 }
 
 .icon_box {
 	margin-bottom: 50px;
+}
+
+.icon_box h4 {
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .icon_box p {
