@@ -136,7 +136,7 @@ body h1 {
 	height: 100vh;
 	background-size: cover;
 	background-position: left top;
-	margin: 0 auto 100px;
+	margin: 0 auto 50px;
 }
 
 #landing_page_header {
@@ -145,22 +145,24 @@ body h1 {
 
 .header_textbox {
 	width: auto;
-/*	border: 2px dashed white;
-*/	position: relative;
+	position: relative;
 	top: 50px;
 	padding-bottom: 50px;
+/*	border: 2px dashed white;
+*/
 }
 
 #header_textbox_text {
 	max-width: 800px;
-/*	border: 2px dashed blue;
-*/	color: white;
+	color: white;
 	font-family: "Lato";
 	font-size: 45px;
 	font-weight: 600;
 	line-height: 50px;
 	text-align: left;
 	margin: 0 30px;
+/*	border: 2px dashed blue;
+*/
 }
 
 #header_textbox_subtext {
@@ -177,13 +179,14 @@ body h1 {
 #signup_page_box {
 	width: 80%;
 	max-width: 570px;
-/*	border: 2px dashed blue;
-*/	color: #595959;
+	color: #595959;
 	text-align: center;
 	margin: 20px auto;
 	line-height: 20px;
 	border-radius: 10px;
 	padding: 10px 20px;
+/*	border: 2px dashed blue;
+*/
 }
 
 #top_textbox {
@@ -191,7 +194,8 @@ body h1 {
 	max-width: 600px;	
 	margin: 25px auto 0;
 /*	border: 1px dashed grey;
-*/}
+*/
+}
 
 
 
@@ -200,23 +204,26 @@ body h1 {
 	****************************/
 
 .section_full_width {
-/*	border: 1px dashed lightgrey;
-*/	width: 100%;
-	margin: 0 auto 100px;
+	width: 100%;
+	margin: 25px auto;
 	text-align: center;
+/*	border: 1px dashed lightgrey;
+*/
 }
 
 .section, .icon_box {
-/*	border: 1px dashed lightgrey;
-*/	width: 90%;
-	margin: 0 auto 100px;
+	width: 90%;
+	margin: 0 auto 50px;
 	text-align: center;
+/*	border: 1px dashed lightgrey;
+*/
 }
 
 #icon_section {
-	padding: 50px 0;
+	padding: 25px 0;
 /*	border: 1px dashed grey;
-*/}
+*/
+}
 
 .icon_box {
 	margin-bottom: 50px;
@@ -234,9 +241,10 @@ body h1 {
 }
 
 .section_small {
-/*	border: 1px dashed lightgrey;
-*/	width: 300px;
+	width: 300px;
 	margin: 0 auto 100px;
+/*	border: 1px dashed lightgrey;
+*/
 }
 
 
@@ -246,10 +254,11 @@ body h1 {
 	****************************/
 
 #contact_me {
-/*	border: 1px dashed grey;
-*/	width: 320px;
+	width: 320px;
 	margin: 0 auto;
 	text-align: left;
+/*	border: 1px dashed grey;
+*/
 }
 
 #contact_me_h1 {
@@ -268,52 +277,49 @@ body h1 {
 	****************************/
 
 #imac {
-	padding: 100px 0 50px;
+	padding: 0;
 }
 
 .imac_section {
-/*	border: 1px dashed grey;
-*/	width: 1150px;
-	min-width: 400px;
+	width: 100%;
 	vertical-align: top;
-	text-align: right;
 	display: inline-block;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+/*	border: 1px dashed grey;
+*/
 }
 
 .imac_section img {
 	margin: auto;
 /*	border: 1px dashed red;
-*/}
+*/
+}
 
 .imac_section_textbox, .imac_section_imagebox {
-/*	border: 1px dashed grey;
-*/	position: relative;
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-
+/*	border: 1px dashed grey;
+*/
 }
 
 .imac_section_textbox {
-	width: 380px;
-	margin: 15px 0 0 0;
-	padding-left: 50px;
-	padding-right: 10px;
+	width: 350px;
+	margin: 15px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+/*	border: 1px dashed blue;
+*/}
+
+.imac_section_textbox button {
+	margin-left: 10%;
 }
 
 #phone {
 	position: absolute;
 	right: 0px;
 	top: 150px;
-}
-
-#imac_section_right {
-	text-align: left;
-}
-
-#imac_section_textbox_right {
-	width: 400px;
 }
 
 .imac_section_textbox p {
@@ -339,7 +345,7 @@ body h1 {
 	text-align: center;
 	height: 500px;
 	padding: 0 50px;
-	visibility: hidden;
+	display: none;
 
 
 }
@@ -364,15 +370,17 @@ body h1 {
 
 .section_divider {
 	height: 300px;
-/*	border: 1px dashed lightgrey;
-*/	width: 100%;
-	margin: 100px auto ;
+	width: 100%;
+	margin: 50px auto ;
 	text-align: center;
+/*	border: 1px dashed lightgrey;
+*/
 }
 
 .section_divider div {
+	text-align: center;
 /*	border: 1px dashed white;
-*/	text-align: center;
+*/
 }
 
 .section_divider_textbox {
@@ -596,9 +604,9 @@ footer {
 	text-align: center;
 	line-height: 40px;
 	font-size: 0.8em;
+	margin: 0;
 /*	border-top: 1px solid rgba(235, 235, 235, 1);
-*/	margin: 0;
-
+*/
 }
 
 footer a {
