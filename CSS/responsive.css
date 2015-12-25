@@ -35,7 +35,9 @@ body h1 {
 	font-size: 18px;
 }
 
-
+.section {
+	margin: 0 auto 100px;
+}
 
 .section_full_width {
 	margin-bottom: 70px;
@@ -43,6 +45,7 @@ body h1 {
 
 .section_divider {
 	height: 380px;
+	margin: 100px auto ;
 }
 
 .section_divider_textbox h2 {
@@ -113,8 +116,23 @@ body h1 {
 	margin-left: 38%;
 }
 
+.imac_section {
+/*	border: 1px dashed grey;
+*/	width: 850px;
+}
+
 .imac_section_imagebox {
-	visibility: visible;
+	display: inline-block;
+}
+
+#imac_section_right {
+	text-align: left;
+/*	border: 1px dashed black;
+*/}
+
+#imac_section_textbox_right {
+	width: 400px;
+	border: 1px dashed red;
 }
 
 }
@@ -237,6 +255,21 @@ body h1 {
 
 #thank_you_list {
 	margin-left: 42%;
+}
+
+.imac_section {
+	width: 1150px;
+	text-align: right;
+	margin-bottom: 100px;
+/*	border: 1px dashed grey;
+*/	
+}
+
+.imac_section_textbox {
+	width: 380px;
+	margin: 15px 0 0 0;
+	padding-left: 50px;
+	padding-right: 10px;
 }
 
 /*.div_top_image {
