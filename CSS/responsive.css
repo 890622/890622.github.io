@@ -109,10 +109,12 @@ body h1 {
 
 }
 
-
-
 #thank_you_list {
 	margin-left: 38%;
+}
+
+.imac_section_imagebox {
+	display: visible;
 }
 
 }
