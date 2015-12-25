@@ -114,7 +114,7 @@ body h1 {
 }
 
 .imac_section_imagebox {
-	display: visible;
+	visibility: visible;
 }
 
 }
