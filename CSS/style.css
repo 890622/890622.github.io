@@ -305,8 +305,7 @@ body h1 {
 .imac_section_textbox {
 	width: 350px;
 	margin: 15px auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 0 5px;
 /*	border: 1px dashed blue;
 */}
 
