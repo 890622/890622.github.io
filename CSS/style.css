@@ -220,7 +220,7 @@ body h1 {
 }
 
 #icon_section {
-	padding: 25px 0;
+	padding: 50px 0;
 /*	border: 1px dashed grey;
 */
 }
@@ -254,16 +254,14 @@ body h1 {
 	****************************/
 
 #contact_me {
-	width: 320px;
-	margin: 0 auto;
-	text-align: left;
+	margin-top: 100px;
 /*	border: 1px dashed grey;
 */
 }
 
 #contact_me_h1 {
 	width: 80%;
-	margin: 0 auto 30px;
+	margin: 0px auto 25px;
 	line-height: 1.2em;
 }
 
