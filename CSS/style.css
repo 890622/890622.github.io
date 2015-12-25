@@ -339,6 +339,7 @@ body h1 {
 	text-align: center;
 	height: 500px;
 	padding: 0 50px;
+	display: hidden;
 
 
 }
