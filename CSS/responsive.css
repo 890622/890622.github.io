@@ -44,8 +44,8 @@ body h1 {
 }
 
 .section_divider {
-	height: 380px;
-	margin: 100px auto ;
+	height: 480px;
+	margin: 20px auto 0;
 }
 
 .section_divider_textbox h2 {
@@ -78,9 +78,6 @@ body h1 {
 }
 
 .opacity_filter {
-	width: 450px;
-	height: 300px;
-	z-index: 2;
 }
 
 .pricing_table {
@@ -96,13 +93,13 @@ body h1 {
 }
 
 .contact_us_box {
-	width: 450px;
+	width: 350px;
+	padding-left: 30px;
 }
 
 .contact_us_textbox {
-	width: 430px;
 	padding-left: 20px;
-	height: 50px;
+	width: auto;
 /*	border: 1px dashed grey;
 */}
 
@@ -139,16 +136,123 @@ body h1 {
 	margin-left: 1%;
 }
 
+	/****************************
+	NEW IMAC SECTION (MOBILE FIRST)
+	****************************/
+
+.new_imac_section_textbox {
+	width: 400px;
+	margin-top: 20px;
+}
+
+.imac_image img {
+	height: auto;
+	width: auto;
+}
+
+.template_section {
+	vertical-align: top;
+	margin: auto;
 }
 
 
 
+}
 
+@media only screen and (min-width: 860px) {
 
+	/****************************
+	NEW IMAC SECTION (MOBILE FIRST)
+	****************************/
 
-	/********************************************************
-	Desktop screens
-	********************************************************/
+.new_imac_section_textbox {
+	width: 300px;
+	margin: 30px 30px 0;
+}
+
+#new_imac_section_textbox_desktop {
+	display: inline-block;
+}
+
+#new_imac_section_textbox_mobile {
+	display: none;
+}
+
+.imac_image {
+	margin: 0 20px;
+}
+
+	/****************************
+	TEMPLATE SECTION
+	****************************/
+
+.template_section {
+	width: 780px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+/*	border: 1px dashed grey;
+*/}
+
+.template_box {
+	width: 780px;
+	border: 20px solid #f7f7f7;
+	height: auto;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+.template_box img {
+	width: 100%;
+	display: inline-block;
+}
+
+.template_textbox {
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 0;
+}
+
+.opacity_filter {
+	width: 780px;
+}
+
+#rainy_opacity {
+    height: 914px;
+}
+
+#jeansy_opacity {
+	height: 1279px;
+}
+
+	/****************************
+	CONTACT US SECTION
+	****************************/
+
+.contact_us_box {
+	width: 250px;
+	margin: 0 5px 50px;
+	display: inline-block;
+}
+
+.contact_us_textbox {
+	width: 240px;
+	padding-left: 10px;
+	padding-right: 5px;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+#signup_button {
+	width: 200px;
+}
+
+#phone_number {
+	font-size: 30px;
+}
+
 
 @media only screen and (min-width: 1149px) {
 
@@ -202,9 +306,6 @@ body h1 {
 }
 
 .opacity_filter {
-	width: 360px;
-	height: 240px;
-	z-index: 2;
 }
 
 .icons_large {
@@ -240,8 +341,8 @@ body h1 {
 }
 
 .contact_us_box {
-	width: 350px;
-	margin: 0 10px 50px;
+	width: 320px;
+	margin: 0 0 50px;
 	display: inline-block;
 }
 
@@ -272,8 +373,22 @@ body h1 {
 .imac_section_textbox {
 	width: 380px;
 	margin: 15px 0 0 0;
-	padding-left: 50px;
-	padding-right: 10px;
+}
+
+	/****************************
+	NEW IMAC SECTION (MOBILE FIRST)
+	****************************/
+	
+.new_imac_section_textbox {
+	width: 360px;
+	margin: 20px 20px 0;
+}
+
+.new_imac_section_textbox_buttonbox img {
+	max-width: 319px;
+}
+
+
 }
 
 /*.div_top_image {
