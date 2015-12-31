@@ -71,7 +71,7 @@ body h1 {
 }
 
 .xlarge_button {
-	width: 250px;
+	width: 320px;
 }
 
 .green_button {
@@ -434,13 +434,23 @@ body h1 {
 
 .template_textbox {
 	width: 100%;
-	height: 170px;
+	height: 140px;
 	margin-top: -2px;
 	padding-top: 20px;
 	background-color: #f7f7f7;
 	text-align: left;
 /*	border: 1px solid #767676;
 */}
+
+.template_textbox_description {
+/*	border: 1px solid #767676;
+*/}
+
+.template_textbox_price {
+/*	border: 1px solid #767676;
+*/	text-align: center;
+	margin-top: 20px;
+}
 
 .template_textbox h3 {
 	text-align: left;
@@ -459,10 +469,6 @@ body h1 {
 
 .template_section button {
     font-size: 12px;
-    height: 30px;
-    padding: 5px 10px;
-    margin-left: 20px;
-    margin-top: 20px;
 }
 
 #rainy_section {
