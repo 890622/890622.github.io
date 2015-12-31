@@ -416,14 +416,14 @@ body h1 {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	margin: 50px auto;
+	margin: 0 auto;
 }
 
 .template_box {
 	width: 350px;
 	border: 10px solid #f7f7f7;
 	height: auto;
-	margin: 0 auto 50px;
+	margin: 50px auto;
 	box-shadow: -2px 4px 43px -11px #888888;
 }
 
