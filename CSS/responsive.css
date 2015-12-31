@@ -10,13 +10,6 @@ body h1 {
 	line-height: 44px;
 }
 
-
-.xlarge_button {
-	width: 350px;
-	height: 60px;
-	font-size: 20px;
-}
-
 .header {
 	margin-bottom: 125px;
 }
@@ -225,6 +218,21 @@ body h1 {
 
 #jeansy_opacity {
 	height: 1279px;
+}
+
+.template_textbox_description {
+	width: 500px;
+	height: 100px;
+	display: inline-block;
+}
+
+.template_textbox_price {
+	width: 248px;
+	height: 100px;	
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0px;
+	padding-right: 20px;
 }
 
 	/****************************
