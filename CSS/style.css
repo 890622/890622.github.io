@@ -71,7 +71,7 @@ body h1 {
 }
 
 .xlarge_button {
-	width: 300px;
+	width: 290px;
 }
 
 .green_button {
@@ -98,22 +98,6 @@ body h1 {
 }
 
 #buy_button {
-}
-
-#buy_premium_button {
-	margin: 20px 0 5px;
-}
-
-#signup_button {
-	width: 250px;
-}
-
-#rainy_button {
-	background-color: #34405A;
-}
-
-#jeansy_button {
-	background-color: #8E9BBB;
 }
 
 #go_to_order_link {
