@@ -242,8 +242,8 @@ body h1 {
 /*	border: 1px dashed blue;
 */}
 
-#header_button {
-	margin-top: -140px;
+#header_big_text p {
+	margin-bottom: -100px;
 }
 
 .template {
