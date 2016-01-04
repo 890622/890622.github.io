@@ -237,6 +237,10 @@ body h1 {
 	line-height: 60px;
 }
 
+#header_big_text {
+	line-height: 30px;
+}
+
 .template {
 	display: inline-block;
 	width: 300px;
