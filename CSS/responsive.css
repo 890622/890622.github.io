@@ -18,6 +18,11 @@ body h1 {
 	margin-bottom: 70px;
 }
 
+#header_big_text {
+	top: 60%;
+	transform: translateY(-50%);
+}
+
 .template_box {
 	width: 480px;
 }
