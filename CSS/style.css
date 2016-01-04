@@ -191,39 +191,6 @@ body h1 {
 /*	border: 1px dashed white;	
 */}
 
-#header_textbox_subtext {
-	width: 85%;
-	max-width: 450px;
-	font-size: 18px;
-	color: white;
-	text-align: left;
-	margin-top: 20px;
-	margin-left: 30px;
-	line-height: 20px;
-	display: none;
-}
-
-#signup_page_box {
-	width: 80%;
-	max-width: 570px;
-	color: #595959;
-	text-align: center;
-	margin: 20px auto;
-	line-height: 20px;
-	border-radius: 10px;
-	padding: 10px 20px;
-/*	border: 2px dashed blue;
-*/
-}
-
-#top_textbox {
-	width: 90%;
-	max-width: 600px;	
-	margin: 25px auto 0;
-/*	border: 1px dashed grey;
-*/
-}
-
 
 
 	/****************************
