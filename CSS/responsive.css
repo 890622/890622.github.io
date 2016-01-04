@@ -238,8 +238,8 @@ body h1 {
 }
 
 #header_big_text p {
-	line-height: 30px;
-	border: 1px dashed white;
+	line-height: 50px;
+	border: 1px dashed blue;
 }
 
 .template {
