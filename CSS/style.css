@@ -88,16 +88,28 @@ body h1 {
 
 .grey_button {
 	background-color: #343737;
-	color: white;
+}
+
+.bluegrey_button {
+	background-color: #566e8f;
+}
+
+.darkgreen_button {
+	background-color: #85a281
 }
 
 .transparent_button {
-	background-color: white;
-	color: #767676;
-	border: 2px solid #bfbfbf;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	text-transform: uppercase;
+	font-size: 10px;
 }
 
 #buy_button {
+}
+
+#demo_button {
 }
 
 #go_to_order_link {
@@ -125,12 +137,23 @@ body h1 {
 	width: 100%;
 	height: 100vh;
 	background-size: cover;
-	background-position: left top;
+	background-position: center center;
 	margin: 0 auto 50px;
 }
 
 #landing_page_header {
-	background-image: url(http://s3.postimg.org/nh4rvlj8z/office_581131_1920.jpg);
+	background-image: url(http://s29.postimg.org/8jqq82o4n/60_RZGXHD06.jpg);
+}
+
+.dark_opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	z-index: 2;
+}
+
+#header_dark_opactiy {
+	width: 100%;
+	height: 100vh;
 }
 
 .header_textbox {
@@ -140,20 +163,33 @@ body h1 {
 	padding-bottom: 50px;
 /*	border: 2px dashed white;
 */
+	display: none;
 }
 
-#header_textbox_text {
-	max-width: 800px;
+#header_big_text {
+	height: auto;
 	color: white;
-	font-family: "Lato";
-	font-size: 45px;
+	font-family: "Lato" Arial;
+	font-size: 25px;
 	font-weight: 600;
-	line-height: 50px;
-	text-align: left;
-	margin: 0 30px;
-/*	border: 2px dashed blue;
-*/
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+/*	border: 1px dashed white;
+*/	position: relative;
+  top: 70%;
+  transform: translateY(-50%);
+
 }
+
+#header_big_text p {
+	width: 300px;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 20px;
+	margin: 0 auto -30px;
+/*	border: 1px dashed white;	
+*/}
 
 #header_textbox_subtext {
 	width: 85%;
@@ -164,6 +200,7 @@ body h1 {
 	margin-top: 20px;
 	margin-left: 30px;
 	line-height: 20px;
+	display: none;
 }
 
 #signup_page_box {
@@ -238,107 +275,8 @@ body h1 {
 }
 
 
-
-	/****************************
-	DIVS
-	****************************/
-
-#contact_me {
-	margin-top: 100px;
-/*	border: 1px dashed grey;
-*/
-}
-
-#contact_me_h1 {
-	width: 80%;
-	margin: 0px auto 25px;
-	line-height: 1.2em;
-}
-
-#contact_me button {
-	text-align: center;
-}
-
-
 	/****************************
 	iMac
-	****************************/
-
-#imac {
-	padding: 0;
-}
-
-.imac_section {
-	width: 100%;
-	vertical-align: top;
-	display: inline-block;
-	margin-bottom: 50px;
-/*	border: 1px dashed grey;
-*/
-}
-
-.imac_section img {
-	margin: auto;
-/*	border: 1px dashed red;
-*/
-}
-
-.imac_section_textbox, .imac_section_imagebox {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-/*	border: 1px dashed grey;
-*/
-}
-
-.imac_section_textbox {
-	width: 350px;
-	margin: 15px auto;
-	padding: 0 5px;
-/*	border: 1px dashed blue;
-*/}
-
-.imac_section_textbox button {
-	margin-left: 10%;
-}
-
-#phone {
-	position: absolute;
-	right: 0px;
-	top: 150px;
-}
-
-.imac_section_textbox p {
-	font-size: 18px;
-	margin-top: -12px;
-	margin-left: 5px;
-}
-
-.imac_section_textbox h2 {
-	font-family: Helvetica, Arial, sans-serif;
-	text-align: left;
-	font-size: 32px;
-	font-weight: 500;
-}
-
-.imac_section_textbox img {
-/*	border: 1px dashed grey;
-*/}
-
-.imac_section_imagebox {
-	width: auto;
-	min-width: 500px;
-	text-align: center;
-	height: 500px;
-	padding: 0 50px;
-	display: none;
-
-
-}
-
-	/****************************
-	NEW IMAC SECTION (MOBILE FIRST)
 	****************************/
 
 #new_imac_section {
@@ -384,13 +322,14 @@ body h1 {
 }
 
 .imac_image img {
-	height: 247px;
-	width: 302px;
+	width: 80%;
 }
 
 #new_imac_section_textbox_desktop {
 	display: none;
 }
+
+
 
 	/****************************
 	Template section
@@ -418,7 +357,7 @@ body h1 {
 
 .template_textbox {
 	width: 100%;
-	height: 140px;
+	height: 180px;
 	margin-top: -2px;
 	padding-top: 20px;
 	background-color: #f7f7f7;
@@ -427,8 +366,8 @@ body h1 {
 */}
 
 .template_textbox_description {
-/*	border: 1px solid #767676;
-*/}
+	width: 500px;
+}
 
 .template_textbox_price {
 /*	border: 1px solid #767676;
@@ -463,144 +402,6 @@ body h1 {
 	background-position: center 70%;
 }
 
-
-
-	/****************************
-	TEMPLATE LINKS
-	****************************/
-
-.black_opacity ,.black_opacity2{
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-}
-
-.black_opacity ,.black_opacity2{
-	padding-top: 0px; 
-}
-
-	/****************************
-	DIVIDERS
-	****************************/
-
-.section_divider {
-	height: 300px;
-	width: 70%;
-	margin: 50px auto 0;
-	text-align: center;
-	background-position: center 70%;
-/*	border: 1px dashed lightgrey;
-*/
-}
-
-.section_divider div {
-	text-align: center;
-/*	border: 1px dashed white;
-*/
-}
-
-.section_divider_textbox {
-	height: auto;
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-  	width: 85%;
-  	margin: auto;
-  	padding-top: 0;
-}
-
-.section_divider_textbox h2 {
-	color: white;
-	font-size: 25px;
-	margin-top: 0;
-}
-
-.section_divider_textbox h2 br {
-	line-height: 180%;
-}
-
-#not_sure_contact_us {
-	background-image: url("http://s29.postimg.org/xsddv4inr/shoes_690686.jpg");
-	background-size: cover;
-}
-
-#pricing_divider {
-	background-image: url("http://s10.postimg.org/8xwf5lfgp/res050_1_stutterheim_stockholm_navy_5.jpg");
-	background-size: cover;
-}
-
-	/****************************
-	ICONS
-	****************************/
-
-.icons {
-	width: 100px;
-	height: 100px;
-	margin: 0 auto;
-}
-
-#icon_geo {
-	width: 100px;
-	height: 117px;
-	margin: 0 auto;
-}
-
-.icons_small {
-	width: 16px;
-	height: 16px;
-}
-
-.icons_large {
-	width: 200px;
-	height: 200px;
-}
-
-	/****************************
-	INFO BOXES (Not displayed at the moment)
-	****************************/
-
-.box {
-	width: 360px;
-	height: 240px;
-	margin: 10px auto;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#boxes {
-	display: inline-block;
-	vertical-align: top;
-}
-
-#box_website {
-	background-image: url(http://i.imgur.com/WwErja6.jpg);
-}
-
-#box_facebook {
-	background-image: url(http://i.imgur.com/gvRrnJa.png);
-}
-
-#box_facebook_ad {
-	background-image: url(http://i.imgur.com/rSePVK7.jpg);
-}
-
-.box_header {
-	padding-top: 5px;
-	text-align: left;
-	margin-left: 18%;
-}
-
-.box_header h2 {
-	color: white;
-}
-
-.box_textbox {
-	color: white;
-	width: 80%;
-	margin: 0 auto;
-	font-size: 20px;
-	line-height: 26px;
-/*border: 1px dashed transparent;
-*/}
 	/****************************
 	OPACITY FILTERS
 	****************************/
@@ -627,18 +428,6 @@ body h1 {
 
 .opacity_filter:hover {
 	background-color: rgba(0,0,0,0.1);
-}
-
-#black_opacity_filter {
-	background-color: rgba(57, 56, 77, 0.95);
-}
-
-#blue_opacity_filter {
-	background-color: rgba(59, 88, 151, 0.95);
-}
-
-#white_opacity_filter {
-	background-color: rgba(87, 143, 255, 0.95);
 }
 
 	/****************************
@@ -688,42 +477,47 @@ body h1 {
 	padding-left: 75px ;
 }
 
-.contact_us_box {
-	height: 200px;
-	width: 350px;
-	margin: 10px auto 0px;
-	padding: 10px;
-	vertical-align: top;
-	border-radius: 5px;
+	/****************************
+	CONTACT ME
+	****************************/
+
+#contact_me {
+	margin-bottom: 0;
+	text-align: center;
+/*	border: 1px dashed grey;
+*/
 }
 
 .contact_us_textbox {
-	height: 80px;
-	width: 290px;
-	margin: auto;
 	text-align: left;
-	padding-left: 10px;
-/*	border: 1px solid grey;
+	width: 80%;
+	max-width: 320px;
+	margin: auto;
+/*	border: 1px dashed grey;
 */}
 
-.contact_us_box_textbox h3 {
-	font-family: Helvetica, Arial, sans-serif;
+#contact_me_h1 {
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	line-height: 1.2em;
+}
+
+#contact_me h3 {
+}
+
+#contact_me button {
 	text-align: center;
 }
 
-
-	/****************************
-	THANK YOU PAGE
-	****************************/
-
-#thank_you_list {
-	margin-left: 20%;
-	text-align: left;
+#phone_number {
 }
 
-	/****************************
-	OTHER
-	****************************/
+#footer_dark_opactiy {
+	height: 100%;
+	width: 100%;
+}
 
 	/****************************
 	FOOTER
@@ -731,10 +525,9 @@ body h1 {
 
 footer {
 	position: relative;
-	bottom: -100px;
 	height: 40px;
 	width: 100%;
-	background-color: rgba(232, 232, 232, 1);
+	background-color: #1b1d1d;
 	text-align: center;
 	line-height: 40px;
 	font-size: 0.8em;
@@ -750,4 +543,12 @@ footer a {
 	color: grey;
 }
 
+	/****************************
+	THANK YOU PAGE
+	****************************/
+
+#thank_you_list {
+	margin-left: 20%;
+	text-align: left;
+}
 
