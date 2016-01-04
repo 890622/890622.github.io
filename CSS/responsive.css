@@ -242,6 +242,10 @@ body h1 {
 /*	border: 1px dashed blue;
 */}
 
+#header_button {
+	margin-top: -40px;
+}
+
 .template {
 	display: inline-block;
 	width: 300px;
