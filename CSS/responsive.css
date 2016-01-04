@@ -233,14 +233,14 @@ body h1 {
 }
 
 #header_big_text {
-	font-size: 50px;
-	line-height: 60px;
+	font-size: 60px;
+	line-height: 75px;
 }
 
 #header_big_text p {
 	line-height: 50px;
-	border: 1px dashed blue;
-}
+/*	border: 1px dashed blue;
+*/}
 
 .template {
 	display: inline-block;
