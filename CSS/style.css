@@ -178,7 +178,6 @@ body h1 {
 	color: white;
 	font-family: "Lato" Arial;
 	font-size: 25px;
-	font-weight: 600;
 	line-height: 40px;
 	text-align: center;
 	margin: 0 auto;
@@ -187,6 +186,10 @@ body h1 {
 	transform: translateY(-50%);
 /*	border: 1px dashed white;
 */	
+}
+
+#header_big_text span {
+	font-weight: 600;
 }
 
 #header_big_text p {
