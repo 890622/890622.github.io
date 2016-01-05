@@ -92,6 +92,10 @@ body h1 {
 	margin-top: -40px;
 }
 
+#new_imac_section_textbox_mobile {
+	display: none;
+}
+
 .contact_us_textbox {
 	height: 120px;
 }
