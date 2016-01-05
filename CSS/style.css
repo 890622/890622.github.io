@@ -181,6 +181,7 @@ body h1 {
 	line-height: 40px;
 	text-align: center;
 	margin: 0 auto;
+	font-weight: 100;
 	position: relative;
 	top: 60%;
 	transform: translateY(-50%);
@@ -189,7 +190,7 @@ body h1 {
 }
 
 #header_big_text span {
-	font-weight: 600;
+	font-weight: 900;
 }
 
 #header_big_text p {
