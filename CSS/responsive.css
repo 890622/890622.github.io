@@ -112,16 +112,25 @@ body h1 {
 @media only screen and (min-width: 860px) {
 
 #header_big_text {
-/*	border: 2px dashed blue;
-*/	font-size: 30px;
+	font-size: 60px;
 	font-weight: 200;
-	line-height: 45px;
+	line-height: 75px;
+/*	border: 2px dashed blue;
+*/
 }
 
 #header_big_text p {
 	font-size: 16px;
 	width: 500px;
+	line-height: 50px;
+	margin-bottom: -100px;
 }
+
+#header_big_text {
+	font-size: 60px;
+	line-height: 75px;
+}
+
 
 	/****************************
 	NEW IMAC SECTION (MOBILE FIRST)
@@ -249,20 +258,6 @@ body h1 {
 
 .section_full_width {
 	margin-bottom: 100px;
-}
-
-#header_big_text {
-	font-size: 60px;
-	line-height: 75px;
-}
-
-#header_big_text p {
-	line-height: 50px;
-/*	border: 1px dashed blue;
-*/}
-
-#header_big_text p {
-	margin-bottom: -100px;
 }
 
 .template {
