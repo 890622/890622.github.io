@@ -107,6 +107,7 @@ body p {
 #header_button {
 	text-transform: uppercase;
 	font-size: 10px;
+	cursor: hand;
 	-webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     -ms-transition: all 0.1s linear;
@@ -121,7 +122,6 @@ body p {
 #header_button:hover {
 	background-color: rgba(255, 255, 255, 0.33);
 	font-weight: 400;
-	cursor: hand;
 }
 
 
