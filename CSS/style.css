@@ -128,8 +128,12 @@ a {
 	font-weight: 400;
 }
 
+#buy_button:hover {
+	background-color: #525757;
+}
+
 #demo_button:hover {
-	background-color: #4d6280;
+	background-color: #6680a3;
 }
 
 	/****************************
