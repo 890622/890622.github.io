@@ -33,6 +33,11 @@ body p {
 	font-weight: 300;
 }
 
+button {
+	cursor: pointer;
+	cursor: hand;
+}
+
 a {
 	cursor: pointer;
 	cursor: hand;
