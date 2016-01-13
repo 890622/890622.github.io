@@ -33,6 +33,10 @@ body p {
 	font-weight: 300;
 }
 
+a {
+	cursor: hand;
+}
+
 	/****************************
 	NAVIGATION
 	****************************/
@@ -48,7 +52,6 @@ body p {
 	font-size: 16px;
 	border-radius: 3px;
 	margin-bottom: 5px;
-	cursor: hand;
 }
 
 .small_button {
