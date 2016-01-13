@@ -103,12 +103,10 @@ a {
 	border: 2px solid white;
 }
 
-#buy_button:hover {
-	background-color: #2a2d2d;
+#buy_button {
 }
 
-#demo_button:hover {
-	background-color: #4d6280; {
+#demo_button {
 }
 
 #header_button {
