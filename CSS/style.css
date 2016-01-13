@@ -48,6 +48,7 @@ body p {
 	font-size: 16px;
 	border-radius: 3px;
 	margin-bottom: 5px;
+	cursor: hand;
 }
 
 .small_button {
@@ -107,7 +108,6 @@ body p {
 #header_button {
 	text-transform: uppercase;
 	font-size: 10px;
-	cursor: hand;
 	-webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     -ms-transition: all 0.1s linear;
