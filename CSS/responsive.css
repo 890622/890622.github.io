@@ -79,6 +79,12 @@ body h1 {
 	margin: auto;
 }
 
+.contact_box {
+	width: 400px;
+}
+
+#about_us_box p {
+	width: 80%;
 }
 
 /*
@@ -182,6 +188,10 @@ body h1 {
 	display: inline-block;
 	vertical-align: top;
 	border-radius: 0;
+}
+
+#template_textbox_jeansy {
+	height: 85px;
 }
 
 .opacity_filter {
@@ -377,8 +387,6 @@ body h1 {
 	margin: 0 20px;
 }
 
-/*.div_top_image {
-	height: 300px;
-}
-*/
+.contact_box {
+	margin: 50px;
 }
